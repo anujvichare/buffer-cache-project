@@ -4,7 +4,6 @@
 
 //header fille inclusions
 #include<stdio.h>
-#include<conio.h>
 #include"buf.h"
 
 extern BUF_H *bfreelist,*hashque[5];
@@ -107,6 +106,5 @@ brelese(test);*/
 	printf("\n\n buffers in free list are: \n");
 	display(bfreelist);
 
-	getch();
 	return 0;
 }
